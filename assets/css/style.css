@@ -1,0 +1,62 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #f0fbff;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background: #fff;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 8%)
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.paytm-icon {
+    display: inline-block;
+    max-width: 128px;
+    max-height: 40px;
+    margin-left: 30px;
+}
+
+.toggler-wrap {
+    display: inline-block;
+}
+
+.navbar-toggler-icon {
+    margin-left: 15px;
+    color: black;
+}
+
+.navbar-left-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn-wrap {
+    background-color: #00baf2;
+    padding-left: 10px;
+    border-radius: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-right: 25px;
+}
+
+.login-btn-text {
+    font-size: 10px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.login-btn-icon {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 2px solid #00baf2;
+    margin-left: 2px;
+}
