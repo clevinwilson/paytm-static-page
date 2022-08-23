@@ -10,6 +10,9 @@ header {
     box-shadow: 0px 4px 8px rgb(0 0 0 / 8%)
 }
 
+section{
+    overflow: hidden;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -73,7 +76,7 @@ header {
 }
 
 @media only screen and (max-width: 1137px) {
-    .middle-section{
+    .middle-section {
         display: none;
     }
 }
@@ -90,4 +93,114 @@ header {
 .ribbon-text {
     font-size: 15px;
     color: black;
+}
+
+/* 
+index banner 1 */
+
+.banner1 {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    padding: 98px 0 98px;
+    position: relative;
+}
+
+.banner-info-wrap {
+    flex: 1;
+    margin-left: 98px;
+}
+
+.banner-img-wrap {
+    flex: 1;
+}
+
+.banner1-img {
+    display: inline-block;
+    width: 528px;
+    position: absolute;
+    right: 0;
+    top: 98px;
+}
+
+.banner1-paytm-icon {
+    display: inline-block;
+    width: 80px;
+    box-shadow: 0 5px 20px rgb(0 41 112 / 10%);
+    border-radius: 16px;
+}
+
+.banner-info-title {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.paytm-icon-wrap {
+    margin-bottom: 48px;
+}
+
+.banner1-info {
+    padding-top: 10px;
+    width: 475px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.banner-download-btn {
+    display: flex;
+    background: #000;
+    color: #fff;
+    font-weight: 500;
+    padding: 3px 15px;
+    border-radius: 28px;
+    width: 249px;
+
+}
+
+.download-text-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 6px;
+    height: 44px;
+    font-size: 15px;
+}
+
+.download-btn-icons-wrap {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-apple,
+.fa-google-play {
+    padding: 0 6px;
+    height: 44px;
+    font-size: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1137px) {
+    .banner-info-wrap {
+        margin-left: 20px;
+    }
+
+    .banner1-info {
+        width: 380px;
+    }
+
+    .banner-info-title {
+        font-size: 42px;
+    }
+
+    .banner1-img {
+        display: none;
+    }
 }
