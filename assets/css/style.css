@@ -422,3 +422,92 @@ index banner 1 */
         padding: 7px 6px 0;
     }
 }
+
+
+/* financial */
+.financial-container {
+    background: #fff;
+}
+
+.financial-title {
+    padding-top: 120px;
+    width: 1170px;
+    margin: 0 auto 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.financial-icon {
+    width: 200px;
+}
+
+.financial-subtitle-wrap {
+    width: 394px;
+}
+
+.financial-subtitle {
+    margin-top: 48px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.financial-info {
+    padding-top: 12px;
+    display: block;
+    width: 515px;
+    margin-bottom: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.financial-btn {
+    height: 63px;
+    background: #002970;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 167px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.financial-image-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.financial-image {
+    margin-top: 123px;
+    width: 427px;
+}
+
+
+
+@media only screen and (max-width:1188px) {
+    .financial-image {
+        margin-top: 48px;
+        width: 326px;
+    }
+
+    .financial-title {
+        width: 412px;
+    }
+
+    .financial-subtitle {
+        width: 367px;
+        font-size: 28px;
+    }
+
+    .financial-info {
+        width: 391px;
+    }
+}
