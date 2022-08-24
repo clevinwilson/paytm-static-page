@@ -12,6 +12,7 @@ header {
 
 section {
     overflow: hidden;
+    background: #f5f7fa;
 }
 
 .navbar {
@@ -139,6 +140,14 @@ index banner 1 */
     font-size: 54px;
     font-weight: 700;
     line-height: 65px;
+}
+
+.icon-info {
+    display: inline-block;
+    width: 90px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 10px;
 }
 
 .paytm-icon-wrap {
@@ -289,7 +298,72 @@ index banner 1 */
 }
 
 @media only screen and (max-width:1188px) {
-    .services-list{
+    .services-list {
         grid-template-columns: 1fr 1fr !important;
+    }
+}
+
+/* instruments banner 4 */
+
+.instruments-wrap {
+    margin-top: 100px;
+    background: #f5f7fa;
+}
+
+.instruments-title {
+    width: 1170px;
+    margin: 0 auto 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.instrument-image {
+    display: inline-block;
+    width: 539px
+}
+
+.instruments-box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 60px;
+    margin: 1px 61px 1px 61px;
+}
+
+
+
+.instruments-info {
+    padding: 24px 0 15px;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.instruments-image-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:1188px) {
+    .instruments-box {
+        padding: 10px !important;
+        margin: 0 !important;
+    }
+
+    .instruments-image-wrap {
+        margin-top: 20px;
+    }
+
+    .instruments-title {
+        display: flex !important;
+        width: 100%;
+    }
+
+    .instrument-image {
+        display: inline-block;
+        width: 480px
     }
 }
