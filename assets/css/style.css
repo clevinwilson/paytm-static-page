@@ -10,9 +10,10 @@ header {
     box-shadow: 0px 4px 8px rgb(0 0 0 / 8%)
 }
 
-section{
+section {
     overflow: hidden;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -93,6 +94,10 @@ section{
 .ribbon-text {
     font-size: 15px;
     color: black;
+}
+
+.nav-link:hover {
+    background-color: #eaedef;
 }
 
 /* 
@@ -203,4 +208,74 @@ index banner 1 */
     .banner1-img {
         display: none;
     }
+}
+
+/* banner 3 services */
+.services-wrap {
+    background-color: #00baf2;
+    padding: 65px 0px;
+}
+
+.services-title {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.service-image {
+    width: 64px;
+    margin-bottom: 17px;
+    background: #fff;
+    border-radius: 100%;
+}
+
+.service {
+    width: 140px;
+    margin-right: 32px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 16px 7px 16px 16px;
+    justify-content: space-between;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 25px;
+    height: 183px;
+    transition: all .3s;
+    display: inline-block;
+    flex: 1;
+}
+
+.service:hover {
+    background-color: #03abdf;
+}
+
+.services-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.service-info {
+    margin-right: 36px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* service2 banner */
+.service2-wrap {
+    background-color: #0f4a8a;
+}
+
+.service2:hover {
+    background-color: #013c7d;
+}
+
+.service2-info {
+    margin-right: 36px !important;
+    font-size: 18px;
+    font-weight: 600;
 }
