@@ -162,7 +162,15 @@ index banner 1 */
     padding: 3px 15px;
     border-radius: 28px;
     width: 249px;
+    border: 1px solid black;
+    transition: all .4s;
 
+}
+
+.banner-download-btn:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
 }
 
 .download-text-wrap {
@@ -260,7 +268,7 @@ index banner 1 */
 }
 
 .service-info {
-    margin-right: 36px;
+    margin-right: 33px;
     font-size: 15px;
     font-weight: 600;
 }
