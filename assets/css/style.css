@@ -241,7 +241,7 @@ index banner 1 */
 
 .service {
     width: 140px;
-    margin-right: 32px;
+    margin-right: 30px;
     cursor: pointer;
     border-radius: 12px;
     padding: 16px 7px 16px 16px;
@@ -253,7 +253,6 @@ index banner 1 */
     height: 183px;
     transition: all .3s;
     display: inline-block;
-    flex: 1;
 }
 
 .service:hover {
@@ -261,14 +260,15 @@ index banner 1 */
 }
 
 .services-list {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
     margin-top: 25px;
 }
 
 .service-info {
-    margin-right: 33px;
+    margin-right: 21px;
     font-size: 15px;
     font-weight: 600;
 }
@@ -283,7 +283,13 @@ index banner 1 */
 }
 
 .service2-info {
-    margin-right: 36px !important;
+    margin-right: 33px !important;
     font-size: 18px;
     font-weight: 600;
+}
+
+@media only screen and (max-width:1188px) {
+    .services-list{
+        grid-template-columns: 1fr 1fr !important;
+    }
 }
