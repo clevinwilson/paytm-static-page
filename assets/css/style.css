@@ -367,3 +367,58 @@ index banner 1 */
         width: 480px
     }
 }
+
+/* card div */
+.atm-card-wrap {
+    margin: 50px 50px 0px 50px;
+}
+
+.card-details {
+    background: #ffffff;
+    border-radius: 16px;
+    height: 630px;
+    padding: 70px 64px 0;
+}
+
+.card-icon {
+    width: 200px;
+    display: block;
+    object-fit: contain;
+}
+
+.card-title {
+    padding-top: 28px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.card-info {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.card-img {
+    display: block;
+    width: 100%;
+}
+
+.card-details-wrap {
+    overflow: hidden;
+}
+
+@media only screen and (max-width:1188px) {
+    .atm-card-wrap {
+        margin: 30px 1px 1px 1px;
+    }
+
+    .atm-card-wrap {
+        grid-gap: 20px;
+    }
+
+    .card-details {
+        padding: 7px 6px 0;
+    }
+}
