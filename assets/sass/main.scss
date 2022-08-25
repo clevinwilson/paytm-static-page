@@ -1,0 +1,7 @@
+.quick-acces-card-wrap {
+    &:hover {
+        .quick-card-image {
+            transform: scale(1.1);
+        }
+    }
+}
