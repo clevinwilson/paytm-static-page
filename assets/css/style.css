@@ -552,6 +552,39 @@ index banner 1 */
     font-size: 15px;
     text-decoration: none;
 }
-.tools-wrap{
+
+.tools-wrap {
     padding: 20px;
+}
+
+/* paytm-money */
+.paytm-money-container {
+    position: relative;
+}
+
+
+.paytm-money-wrpa {
+    position: absolute;
+}
+
+.paytm-money-bg {
+    width: 100%;
+}
+
+.paytm-money-info-wrap {
+    position: absolute;
+    top: 91px;
+    right: -69px;
+}
+
+@media screen and (max-width:1188px) {
+    .paytm-money-container {
+        height: 1000px;
+    }
+
+    .paytm-money-info-wrap {
+        position: absolute;
+        top: 453px;
+        right: 0px;
+    }
 }
