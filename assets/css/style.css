@@ -599,6 +599,7 @@ index banner 1 */
     background: white;
     margin-top: 37px;
     border-radius: 10px;
+    position: relative;
 }
 
 .quick-icon {
@@ -632,6 +633,7 @@ index banner 1 */
     overflow-x: auto;
     grid-gap: 25px;
     padding-left: 43px;
+    margin-top: 48px;
     -ms-overflow-style: none;
     /* IE and Edge */
     scrollbar-width: none;
@@ -677,4 +679,35 @@ index banner 1 */
 .quick-access-icon {
     overflow: hidden;
     border-radius: 6px;
+}
+
+.right-arrow-container {
+    position: absolute;
+    /* display: inline-block; */
+    display: flex;
+    background: #ffffff;
+    width: 42px;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #66d6ff;
+    border: 3px solid #66d6ff;
+    right: -20px;
+    /* padding: 3px; */
+    top: 139px;
+}
+
+@media screen and (max-width:561px) {
+    .quick-money-cards-wrap {
+        width: 368px;
+        margin-left: 12px;
+        padding-left: 178px;
+    }
+
+    .right-arrow-container {
+        right: 9px;
+        /* padding: 3px; */
+        top: 418px;
+    }
 }
