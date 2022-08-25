@@ -599,13 +599,16 @@ index banner 1 */
 
 .quick-access-container {
     background-color: #f0fbff;
+    margin-bottom: 85px !important;
 }
 
 .quick-box-wrap {
     background: white;
-    margin-top: 37px;
+    margin-top: 85px;
     border-radius: 10px;
     position: relative;
+    margin-left: 55px;
+    margin-right: 55px;
 }
 
 .quick-icon {
@@ -714,6 +717,11 @@ index banner 1 */
     .right-arrow-container {
         right: 4px;
         top: 456px;
+    }
+
+    .quick-box-wrap {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
 
