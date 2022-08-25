@@ -629,6 +629,17 @@ index banner 1 */
     justify-content: center;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    overflow-x: auto;
+    grid-gap: 25px;
+    padding-left: 43px;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.quick-money-cards-wrap::-webkit-scrollbar {
+    display: none;
 }
 
 .quick-card-image {
