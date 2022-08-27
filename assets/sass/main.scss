@@ -5,3 +5,16 @@
         }
     }
 }
+
+.financial-btn {
+    &:hover {
+            background: #00aced;
+        .learnmore-round-btn-icon::before {
+            content: '';
+            height: 2px;
+            width: 100%;
+            background-color: white;
+            display: block;
+        }
+    }
+}

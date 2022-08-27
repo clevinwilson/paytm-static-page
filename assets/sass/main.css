@@ -1,3 +1,14 @@
 .quick-acces-card-wrap:hover .quick-card-image {
   transform: scale(1.1);
+}
+
+.financial-btn:hover {
+  background: #00aced;
+}
+.financial-btn:hover .learnmore-round-btn-icon::before {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  display: block;
 }/*# sourceMappingURL=main.css.map */
